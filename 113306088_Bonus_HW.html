@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus HW</title>
+    <style> <meta charset="utf-8">
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.custom-form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+
+p {
+    display: flex;
+    margin: 15px;
+    font-size: 14px;
+
+
+}
+
+input[type="text"], textarea {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+img {
+
+    max-width: 94%;
+    border-radius: 5px;
+    margin-left: 3px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Bonus HW</h1>
+        <form class="custom-form">
+            <div class="form-row">
+                <p>input1</p>
+                <input type="text" id="input1" placeholder="input1">
+            </div>
+            <div class="form-row">
+                <p>input2</p>
+                <input type="text" id="input2" placeholder="input2">
+                <p>input3</p>
+                <input type="text" id="input3" placeholder="input3">
+            </div>
+            <div class="form-row">
+                <p>input4</p>
+                <input type="text" id="input5" placeholder="input4">
+            </div>
+            <div class="form-row">
+                <p style="margin-right: 6px;" >textarea</p>
+                <textarea id="textarea" placeholder="make it not resizable"></textarea>
+            </div>
+            <div class="form-row">
+                <p>picture1<img src="sample.png" id="picture"></p>
+                
+            </div>
+        </form>
+    </div>
+</body>
